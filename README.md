@@ -1,3 +1,3 @@
 # Distributed_learning
 
-![](filename%Readme.jpg)
+![](Readme.jpg)
