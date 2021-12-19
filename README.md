@@ -1,3 +1,3 @@
 # Distributed_learning
 
-![](images/filename%Readme.png)
+![](images/filename%Readme.jpg)
