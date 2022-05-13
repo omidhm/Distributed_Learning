@@ -44,7 +44,7 @@ This is an example of how to list things you need to use the software and how to
 Provide Virtual Environment on devices:
    ```sh
    conda env remove -n ENV_NAME
-   conda create -n py27 python anaconda
+   conda create -n py python anaconda
    conda install tensorflow-gpu opencv-python jupyter matplotlib tqdm
    conda install -c anaconda cudatoolkit
    conda install tensorflow-gpu opencv-python jupyter matplotlib tqdm numpy 
@@ -60,7 +60,16 @@ Provide Virtual Environment on devices:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This code is a complete implementation of a real world distributed learning. Please change the IP address based on the devices that 
+This code is a complete implementation of a real world distributed learning. Please change the IP address based on the devices. 
+
+### IP Linux (Terminal)
+ifconfig -a
+### IP Win (CMD)
+ipconfig -a
+
+
+
+Provide Virtual Environment on devices:
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
