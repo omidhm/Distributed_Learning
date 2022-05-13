@@ -25,7 +25,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+This is an example of how you may set up a real implementation of distributed learning on real devices (e.g. Jetson TX2).
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -36,23 +36,22 @@ This is an example of how to list things you need to use the software and how to
   conda install numpy jupyter
   conda install pytorch torchvision -c pytorch
   conda install -c conda-forge matplotlib
+  conda install -c anaconda flask
   ```
 
-### Installation
+### Anaconda prompt
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Provide Virtual Environment on devices:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   conda env remove -n ENV_NAME
+   conda create -n py27 python anaconda
+   conda install tensorflow-gpu opencv-python jupyter matplotlib tqdm
+   conda install -c anaconda cudatoolkit
+   conda install tensorflow-gpu opencv-python jupyter matplotlib tqdm numpy 
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+   
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -61,7 +60,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This code is a complete implementation of a real world distributed learning. Please change the IP address based on the devices that 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
