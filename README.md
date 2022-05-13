@@ -13,16 +13,10 @@
 
 
 
-### Built With
+### Install
 
 * [Anaconda Prompt](https://anaconda.org/conda-forge/prompt)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -37,9 +31,11 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* conda
   ```sh
-  npm install npm@latest -g
+  conda install numpy jupyter
+  conda install pytorch torchvision -c pytorch
+  conda install -c conda-forge matplotlib
   ```
 
 ### Installation
