@@ -15,7 +15,7 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
+* [Anaconda Prompt](https://anaconda.org/conda-forge/prompt)
 * [React.js](https://reactjs.org/)
 * [Vue.js](https://vuejs.org/)
 * [Angular](https://angular.io/)
